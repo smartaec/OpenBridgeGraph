@@ -24,13 +24,13 @@ In this research, national bridge inventory data (from the NBI database) and cli
 ### Batch loading
 1. open cmd
 2. run python gen_state_county_csv.py
-3. run python gen_nbi_csv_v2.py MI11.txt
-4. run python gen_nbi_csv_v2.py MI12.txt true #append csv to previously generated
-5. run python gen_nbi_csv_v2.py MI13.txt true #append csv to previously generated
-6. run python gen_nbi_csv_v2.py MI14.txt true #append csv to previously generated
-7. run python gen_nbi_csv_v2.py MI15.txt true #append csv to previously generated
-8. run python gen_nbi_csv_v2.py MI16.txt true #append csv to previously generated
-8. run python gen_nbi_csv_v2.py WI16.txt true #append csv to previously generated
+3. run python gen_nbi_csv.py MI11.txt
+4. run python gen_nbi_csv.py MI12.txt true #append csv to previously generated
+5. run python gen_nbi_csv.py MI13.txt true #append csv to previously generated
+6. run python gen_nbi_csv.py MI14.txt true #append csv to previously generated
+7. run python gen_nbi_csv.py MI15.txt true #append csv to previously generated
+8. run python gen_nbi_csv.py MI16.txt true #append csv to previously generated
+8. run python gen_nbi_csv.py WI16.txt true #append csv to previously generated
 9. run python gen_climate_csv.py MI_Climate.csv
 10. run python del_nbi_csv_duplicate.py
 11. copy all data in output folder to import folder of neo4j installation path
