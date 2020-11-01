@@ -1,8 +1,10 @@
 # OpenBridgeGraph
 This repo contains scripts for the paper entitled "OpenBridgeGraph: Integrating Open Government Data for Bridge Management".
+[Link to the published version](http://www.iaarc.org/publications/2020_proceedings_of_the_37th_isarc/openbridgegraph-integrating_open_government_data_for_bridge_management.html)
+
 
 Use the following data to reference this repo or the paper:  
-Lin, J.-R.(2020), OpenBridgeGraph: Integrating Open Government Data for Bridge Management. in Proceedings of the 37th International Symposium on Automation and Robotics in Construction (ISARC 2020). (Submitted)
+Lin, J.-R.(2020), OpenBridgeGraph: Integrating Open Government Data for Bridge Management. in Proceedings of the 37th International Symposium on Automation and Robotics in Construction (ISARC 2020), 1255-1262. doi:10.22260/ISARC2020/0172
 
 ## Introduction
 Due to limited funds, road authorities around the world are facing challenges related to bridge management and the escalating maintenance requirements of large infrastructure assets. Nowadays, many government organizations have published a variety of data to enable transparency, foster applications, and to satisfy legal obligations. Open governments data like bridge data, weather data would help to better assess the condition of bridges for maintenance purpose and allocation of funds. However, these data sets are fragmented in different systems or formats, and their value in bridge management are not fully explored. This paper proposes a graph-based bridge information modeling framework to integrate open government data for bridge management. The framework represents bridge inventory data as a labeled property graph model and extends the model with weather data. Implementation of the framework employs python scripts for data processing, and neo4j database for data management. The framework is demonstrated using data from national bridge inventory (NBI) and national oceanic and atmosphere administration (NOAA). The results show that the proposed framework can potentially facilitate the integration and retrieval of public government data, and effectively support and provide services to bridge management.
